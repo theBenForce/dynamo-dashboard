@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { CdkInAnHourStack } from '../lib/cdk-in-an-hour-stack';
+import { DynamoDashboardStack } from '../lib/dynamo-dashboard-stack';
 
 const app = new cdk.App();
-new CdkInAnHourStack(app, 'CdkInAnHourStack', {
+new DynamoDashboardStack(app, 'CdkInAnHourStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

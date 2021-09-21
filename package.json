@@ -1,8 +1,8 @@
 {
-  "name": "cdk-in-an-hour",
+  "name": "dynamo-dashboard",
   "version": "0.1.0",
   "bin": {
-    "cdk-in-an-hour": "bin/cdk-in-an-hour.js"
+    "dynamo-dashboard": "bin/dynamo-dashboard.js"
   },
   "scripts": {
     "build": "tsc",
